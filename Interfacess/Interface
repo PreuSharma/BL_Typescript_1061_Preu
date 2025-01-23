@@ -1,0 +1,6 @@
+Interfaces in TypeScript are used to define the structure of an object, ensuring type safety and clarity. 
+They provide a blueprint for the shape of an object, including its properties, their types, and optional or readonly modifiers.
+
+Defining interfaces
+Optional and readonly properties
+Extending interfaces

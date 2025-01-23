@@ -1,0 +1,27 @@
+//use custom types when we need union intersection or mapped types
+//use interfaces when need classes
+type Stud={
+    name:string;
+    age:number;
+};
+type StudAddr={
+    city:string;
+    state:string;
+
+};
+const BioData: Stud|StudAddr={
+    name:"preu",
+    age:21,
+    city:"panchkula",
+    state:"Haryana",
+};
+console.log(BioData);
+
+interface Greet{
+    name:string;
+    age:number
+}
+const greets1:Greet={
+    name:'preu',
+    age:21,
+}
